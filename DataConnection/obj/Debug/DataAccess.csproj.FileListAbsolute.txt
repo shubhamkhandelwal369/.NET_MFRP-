@@ -1,0 +1,10 @@
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\DataConnection\bin\Debug\DataConnection.dll
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\DataConnection\bin\Debug\DataConnection.pdb
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\DataConnection\obj\Debug\DataConnection.dll
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\DataConnection\obj\Debug\DataConnection.pdb
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\DataConnection\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Shubham Khandelwal\Desktop\New folder\ABC_TechnologySolutions\DataConnection\bin\Debug\DataConnection.dll
+C:\Users\Shubham Khandelwal\Desktop\New folder\ABC_TechnologySolutions\DataConnection\bin\Debug\DataConnection.pdb
+C:\Users\Shubham Khandelwal\Desktop\New folder\ABC_TechnologySolutions\DataConnection\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Shubham Khandelwal\Desktop\New folder\ABC_TechnologySolutions\DataConnection\obj\Debug\DataConnection.dll
+C:\Users\Shubham Khandelwal\Desktop\New folder\ABC_TechnologySolutions\DataConnection\obj\Debug\DataConnection.pdb

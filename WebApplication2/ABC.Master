@@ -1,0 +1,183 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ABC.master.cs" Inherits="WebApplication2.ABC" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>ABC Technology Solutions</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+        }
+        .new-class {
+            color:#d5b000;
+        }
+        a {
+            color:#d5b000
+        }
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+
+        @media (min-width: 768px) {
+            .jumbotron {
+                padding-top: calc(var(--jumbotron-padding-y) * 2);
+                padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+            }
+        }
+
+        .jumbotron p:last-child {
+            margin-bottom: 0;
+        }
+
+        .jumbotron-heading {
+            font-weight: 300;
+        }
+
+        .jumbotron .container {
+            max-width: 40rem;
+        }
+
+        footer {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+            footer p {
+                margin-bottom: .25rem;
+            }
+
+        .box-shadow {
+            box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+        }
+    </style>
+    <link href="MasterStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+
+
+            <div class="collapse bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <h4 class="text-white">Choice</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="HomePage.aspx" class="new-class">Home</a></li>
+                                <li><a href="SignupPage.aspx" class="new-class">Add</a></li>
+                                <li><a href="edit.aspx" class="new-class">Edit</a></li>
+                                <li><a href="Delete.aspx" class="new-class">Delete</a></li>
+                                <li><a href="ViewSpecific.aspx" class="new-class">View Specific</a></li>
+                                <li><a href="ViewAll.aspx" class="new-class">View All</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="HomePage.aspx" class="navbar-brand d-flex align-items-center">
+                    <img src="images/abc-logo.jpg" alt="" width="60" height="40" />
+                    <strong>ABC Technology Solutions</strong>
+                </a>
+                <div></div>
+                <div >
+                    <asp:LinkButton ID="lb_addrank" runat="server" OnClick="lb_addrank_Click">Upload Rank</asp:LinkButton>&nbsp&nbsp
+                    <asp:LinkButton ID="lb_AddMarks" runat="server" OnClick="lb_AddMarks_Click">Upload Marks</asp:LinkButton>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+
+
+        <br />
+        <br />
+
+
+
+
+        <%--<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+                    <img class="mb-2" src="images/ABCLOGO.png" alt="" width="200" height="100"<asp:ImageButton ID="ImageButton1" runat="server" /> 
+                    <h5 class="my-0 mr-md-auto font-weight-normal">ABC Technology Solutions</h5>
+                    <nav class="my-2 my-md-0 mr-md-3">
+                        <a class="p-2 text-dark" href="#">Features</a>
+                        <a class="p-2 text-dark" href="#">Enterprise</a>
+                        <asp:LinkButton ID="lb_addrank" runat="server" OnClick="lb_addrank_Click">Upload Rank</asp:LinkButton>
+                        <asp:LinkButton ID="lb_AddMarks" runat="server" OnClick="lb_AddMarks_Click">Upload Marks</asp:LinkButton>
+                    </nav>
+                    <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                        <asp:ListItem>Choice</asp:ListItem>
+                        <asp:ListItem>Home</asp:ListItem>
+                        <asp:ListItem>View Specific</asp:ListItem>
+                        <asp:ListItem>View All</asp:ListItem>
+                        <asp:ListItem>Add</asp:ListItem>
+                        <asp:ListItem>Edit</asp:ListItem>
+                        <asp:ListItem>Delete</asp:ListItem>
+                    </asp:DropDownList>
+                </div>--%>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+        <div class="container">
+
+            <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                <div class="row">
+                    <div class="col-12 col-md">
+
+                        <small class="d-block mb-3 text-muted">&copy; 2018-2019</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Features</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Cool stuff</a></li>
+                            <li><a class="text-muted" href="#">Random feature</a></li>
+                            <li><a class="text-muted" href="#">Team feature</a></li>
+                            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                            <li><a class="text-muted" href="#">Another one</a></li>
+                            <li><a class="text-muted" href="#">Last time</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Resources</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Resource</a></li>
+                            <li><a class="text-muted" href="#">Resource name</a></li>
+                            <li><a class="text-muted" href="#">Another resource</a></li>
+                            <li><a class="text-muted" href="#">Final resource</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>About</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Team</a></li>
+                            <li><a class="text-muted" href="#">Locations</a></li>
+                            <li><a class="text-muted" href="#">Privacy</a></li>
+                            <li><a class="text-muted" href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\obj\Debug\UploadMarksConsole.csprojResolveAssemblyReference.cache
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\bin\Debug\UploadMarksConsole.exe.config
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\bin\Debug\UploadMarksConsole.exe
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\bin\Debug\UploadMarksConsole.pdb
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\bin\Debug\DataConnection.dll
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\bin\Debug\UploadMarks.dll
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\bin\Debug\DataConnection.pdb
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\bin\Debug\UploadMarks.pdb
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\obj\Debug\UploadMarksConsole.exe
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadMarksConsole\obj\Debug\UploadMarksConsole.pdb

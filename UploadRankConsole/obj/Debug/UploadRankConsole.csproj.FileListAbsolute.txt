@@ -1,0 +1,10 @@
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\obj\Debug\UploadRankConsole.csprojResolveAssemblyReference.cache
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\bin\Debug\UploadRankConsole.exe.config
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\bin\Debug\UploadRankConsole.exe
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\bin\Debug\UploadRankConsole.pdb
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\bin\Debug\DataConnection.dll
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\bin\Debug\UploadRank.dll
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\bin\Debug\DataConnection.pdb
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\bin\Debug\UploadRank.pdb
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\obj\Debug\UploadRankConsole.exe
+C:\Users\742789\Documents\Visual Studio 2012\Projects\ABC_TechnologySolutions\UploadRankConsole\obj\Debug\UploadRankConsole.pdb
